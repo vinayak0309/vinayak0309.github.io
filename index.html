@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="container1">
+        
+            <div class="menu"onclick="myFunction()">
+                <i class="fa fa-th-list"></i>
+            </div>
+        <header>
+
+            <nav class="navbar" id="navbar">
+                <ul>
+                    <li><a href="https://vinayak0309.github.io/" class="active">Home</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=918482870026&text=Hi%20Vinayak">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="myphoto">
+            <img src="photo.jpg" alt="My Photo">
+
+            <br>
+            <h1 style="color: white; font-weight: 900;text-align:center; ">Hi <br> I am Vinayak Kamthe</h1>
+            <br>
+            <pre style="color: white;text-align: center;">
+Student Of PCCOE
+    Electronics & Telecommunication Engineering </pre>
+            <button onclick="location.href='#info'" type="button">More about me...</a></button>
+
+        </div>
+
+
+
+    </div>
+    <div class="container2" id="info">
+        <div class="content">
+            <div class="head">
+                <h1 style="color: white;">About Me...!</h1>
+                <img src="emo.png" alt="">
+            </div>
+            <p>
+                Hi👋,My name is Vinayak, <br><br>
+                I have completed my Diploma in Electronics and Telecommunication at Cusrow Wadia Institute of Technology
+                and I am Currently pursuing my Bachelor's degree at Pimpri Chinchwad college of Engineering.I am
+                interested in problem solving and learning new stuff. I would like to learn more on Graphic designing,
+                User Interface designing, App development.
+            </p>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("navbar");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+</body>
+
+</html>
